@@ -9,7 +9,7 @@ find_package(catkin REQUIRED COMPONENTS
   std_msgs
 )
 catkin_package(
-  CATKIN_DEPENDS rospy std_msgs  geometry_msgs common_msgs
+  CATKIN_DEPENDS geometry_msgs rospy std_msgs  geometry_msgs 
 
 )
 
