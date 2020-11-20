@@ -9,6 +9,12 @@ find_package(catkin REQUIRED COMPONENTS
   std_msgs
 )
 
+generate_messages(
+  DEPENDENCIES
+  geometry_msgs
+  std_msgs
+)
+
 catkin_package(
   CATKIN_DEPENDS geometry_msgs rospy std_msgs 
 )
