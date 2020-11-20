@@ -4,14 +4,13 @@ project(algorithm)
 
 find_package(catkin REQUIRED COMPONENTS
   common_msgs
-  geometry_msgs
   rospy
   std_msgs
 )
 
 
 catkin_package(
-  CATKIN_DEPENDS geomety_msgs rospy std_msgs   
+  CATKIN_DEPENDS  rospy std_msgs   
 
 )
 
