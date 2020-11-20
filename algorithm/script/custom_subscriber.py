@@ -1,5 +1,5 @@
 import rospy
-from common_msgs import TimePose
+from common_msgs.msg import TimePose
 
 def callback(msg):
     print "subscribe:", msg.timestamp.secs%100, msg.vect.x, msg.vect.y, msg.vect.z
