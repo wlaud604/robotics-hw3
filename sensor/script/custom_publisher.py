@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import rospy
 from geometry_msgs.msg import Vector3
 from common_msgs.msg import TimePose
