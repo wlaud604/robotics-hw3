@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.0.2)
+make_minimum_required(VERSION 3.0.2)
 project(algorithm)
 
 
@@ -9,15 +9,9 @@ find_package(catkin REQUIRED COMPONENTS
   std_msgs
 )
 
-generate_messages(
-  DEPENDENCIES
-  geometry_msgs
-  std_msgs
-)
 
 catkin_package(
   CATKIN_DEPENDS geometry_msgs rospy std_msgs   
 
 )
-
 
