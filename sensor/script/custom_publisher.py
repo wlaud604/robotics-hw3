@@ -13,3 +13,5 @@ while not rospy.is_shutdown():
     pub.publish(msg)
     print "publish:", msg.timestamp.secs%100, msg.vect.x, msg.vect.y, msg.vect.z
     rate.sleep()
+
+
