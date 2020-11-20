@@ -1,6 +1,6 @@
 import rospy
 from geometry_msgs.msg import Vector3
-from common_msgs import TimePose
+from common_msgs.msg import TimePose
 
 rospy.init_node('custom_publisher')
 pub = rospy.Publisher('custom_msg', TimePose, queue_size=1)
