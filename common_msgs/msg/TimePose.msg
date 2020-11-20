@@ -1,2 +1,2 @@
 time timestamp
-geometry_msgs/Vector3 vect
+geometry_msgs/Vector3 pose
